@@ -35,7 +35,7 @@ body{
 .main{
    
     background: linear-gradient(45deg, rgb(4, 165, 246), rgb(208, 0, 255), rgb(255, 0, 89));
- height: 50vh;
+ height: 100vh;
  display: flex;
  
 }
