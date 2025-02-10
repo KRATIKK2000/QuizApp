@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: white; */
+    
+    
+}
+body{
+    margin: auto;
+    width: 100vw;
+    
+   
+}
+
+.optionBox{
+    /* background-color: #20e4e4de; */
+    display: block;
+    margin: 10px 0px ;
+    
+}
+.options{
+    margin: .5rem;
+}
+.resultText{
+    display: none;
+}
+.show{
+    display: block;
+    text-align: center;
+    font-size: larger;
+    font-weight: 900;
+    background: linear-gradient(45deg, rgb(4, 165, 246), rgb(208, 0, 255));
+}
+.main{
+   
+    background: linear-gradient(45deg, rgb(4, 165, 246), rgb(208, 0, 255), rgb(255, 0, 89));
+ height: 50vh;
+ display: flex;
+ 
+}
+.insideMain{
+    margin: auto;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: .5rem;
+    width: 50vw;
+}
+.button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: .5rem;
+    border-radius: 5px;
+    color: beige;
+    font-weight: 700;
+    /* text-align: center; */
+
+}
+

@@ -8,7 +8,44 @@
     <script src="./quiz.js" defer></script>
 </head>
 <body>
-    <h1>hello</h1>
-    for
+ 
+      <div class="main">
+         <div class="insideMain">
+          
+          <h3 class="question ">this is question </h3>
+         
+         
+          <div  class="optionBox" >
+           
+            <input onclick="selectoption(event)"  type="radio" class="options" id="A" name="option"  >
+            <label for="A">(A)  option </label>
+              <br>
+            
+              <input onclick="selectoption(event)"  type="radio" class="options" id="B" name="option" >
+              <label for="B">(B) option </label>
+            <br>
+
+            <input onclick="selectoption(event)"  type="radio" class="options" id="C" name="option" >
+            <label for="C">(C) option </label>
+            <br>
+
+            <input onclick="selectoption(event)"  type="radio" class="options" id="D" name="option" >
+            <label for="D">(D) option </label>
+            <br>
+
+                    
+
+          </div>
+          <button class="button"   onclick="nextQue(event)">next question</button>
+        </div>
+         
+         
+      </div>
+      <div class="show">
+        <p class="resultText">your score is </p>
+      <h2 class="result"></h2>
+      </div>
+
+   
 </body>
 </html>
